@@ -1,4 +1,5 @@
 // #import "@preview/ilm:1.1.2": *
+#import "../theme.typ": *
 #import "../lib.typ": *
 
 #set text(
@@ -27,11 +28,21 @@
   listing-index: (enabled: true)
 )
 
+#show: codly-init.with()
+
+#codly(
+  languages: (
+    rust: (name: "Rust", icon: "\u{fa53}", color: rgb("#CE412B")),
+  )
+)
+
 = 数据结构
 
-#include "../content/数据结构与算法/数组.typ"
+#include "../content/数据结构与算法/menu-数组.typ"
 
 = 算法
+
+#include "../content/数据结构与算法/menu-二分查找.typ"
 
 // = 数据结构
 
