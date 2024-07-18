@@ -10,7 +10,7 @@
 
 #show: ilm.with(
   title: [数据结构与算法],
-  author: "dry",
+  author: "Quaternijkon",
   date: datetime(year: 2024, month: 07, day: 2),
   abstract: [
     关于数据结构与算法的学习笔记。
@@ -38,9 +38,13 @@
 
 = 数据结构
 
+#pagebreak()
+
 #include "../content/数据结构与算法/menu-数组.typ"
 
 = 算法
+
+#pagebreak()
 
 #include "../content/数据结构与算法/menu-二分查找.typ"
 
