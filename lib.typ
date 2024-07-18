@@ -133,9 +133,12 @@
     for _solution in _solutions {
       idea(
         title:"方法" + str(j),
-      )[#_solution.text]
+      )[#_solution.text
 
-      raw(_solution.code, lang: "cpp")
+      #_solution.code
+      ]
+
+      // [#_solution.code]
       j+=1;
     }
     

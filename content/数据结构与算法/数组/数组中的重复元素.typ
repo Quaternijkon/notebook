@@ -25,22 +25,32 @@
   _solutions: (
     (text:[
 遍历中，第一次遇到数字 x 时，将其交换至索引 x 处；而当第二次遇到数字 x 时，一定有 documents[x]=x ，此时即可得到一组重复数字。
-    ],code:"
-    int findDuplicate(int* documents, int documentsSize){
-        int slow = documents[0];
-        int fast = documents[0];
-        do{
-            slow = documents[slow];
-            fast = documents[documents[fast]];
-        }while(slow != fast);
-        slow = documents[0];
-        while(slow != fast){
-            slow = documents[slow];
-            fast = documents[fast];
+    ],code:
+    [
+```cpp
+class Solution {
+public:
+    int findRepeatDocument(vector<int>& documents) {
+        int i = 0;
+        while(i < documents.size()) {
+            if(documents[i] == i) {
+                i++;
+                continue;
+            }
+            if(documents[documents[i]] == documents[i])
+                return documents[i];
+            swap(documents[i],documents[documents[i]]);
         }
-        return slow;
-    }"),
+        return -1;
+    }
+};
+```      
+    ]
+
+    ),
   )
 )
+
+
 
 // #BlueText("数组中的重复元素")
