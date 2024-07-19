@@ -1,4 +1,12 @@
-#demo(
+#import "../../../lib.typ":*
+
+=== #Title(
+  title: [],
+  reflink: "",
+  level: 1,
+)
+
+#note(
   title: [
 
   ],
@@ -17,7 +25,8 @@
   ],
 
   solutions: (
-  (text:[
+  ( name:[],
+    text:[
 
   ],code:[
 ```cpp

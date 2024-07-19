@@ -84,7 +84,7 @@
 
   // Set raw text font.
   // Default is Fira Mono at 8.8pt
-  show raw: set text(font: ("Jetbrains Mono","Iosevka", "Fira Mono"), size: 9pt)
+  show raw: set text(font: ("Jetbrains Mono","PingFang SC","Iosevka", "Fira Mono"), size: 9pt)
 
   // Configure page size and margins.
   set page(
