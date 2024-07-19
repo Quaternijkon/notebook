@@ -66,12 +66,12 @@
   }
 }
 
-#let Link(_link)=box(link(_link,image("assets/link.svg")), height: 1em)
+// #let Link(_link)=box(link(_link,image("assets/link.svg")), height: 1em)
 
 #let Title(
-    _title:[],
-    _link:"",
-    _level:1,
+    title:[],
+    reflink:"",
+    level:1,
   )={
   let pic = (
     "",
@@ -80,33 +80,32 @@
     "assets/hard.svg",
   )
   box(
-    image(pic.at(_level), height: 1em),
+    image(pic.at(level), height: 1em),
   )
-  [#_title]
+  [#title]
   box(
-    link(_link,image("assets/link.svg", height: 1em))
+    link(reflink,image("assets/link.svg", height: 1em))
   )
 
   
 }
 
-#let demo(
-  _difficuty:[],
-  _title:[标题],
-  _link:"https://github.com/Quaternijkon",
-  _description:[描述],
-  _examples:(),
-  _tips:[提示],
-  _solutions:(),
-  _code:[代码],
+#let note(
+  difficuty:[],
+  title:[标题],
+  description:[描述],
+  examples:(),
+  tips:[提示],
+  solutions:(),
+  code:[代码],
 )={
   
   block({
     // link(_link,image("assets/leetcode.svg"))
     question(
-      title:_title,
+      title:title,
 
-    )[#_description]
+    )[#description]
 
     // link(link:link,image("assets/leetcode.svg"))
     // link("https://github.com/Quaternijkon/Typst_USTC_CS.git",image("assets/leetcode.svg"))
@@ -117,7 +116,7 @@
     // 
     let i=1;
     
-    for _example in _examples {
+    for _example in examples {
       example(
         title:"示例" + str(i),
       )[#_example]
@@ -126,19 +125,18 @@
 
     tip(
       title:[提示],
-    )[#_tips]
+    )[#tips]
 
     let j=1;
 
-    for _solution in _solutions {
+    for solution in solutions {
       idea(
         title:"方法" + str(j),
-      )[#_solution.text
+      )[#solution.text
 
-      #_solution.code
+      #solution.code
       ]
 
-      // [#_solution.code]
       j+=1;
     }
     

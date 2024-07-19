@@ -1,0 +1,29 @@
+#demo(
+  title: [
+
+  ],
+
+  description: [
+
+  ],
+
+  examples: ([
+    
+    ],
+  ),
+
+  tips: [
+
+  ],
+
+  solutions: (
+  (text:[
+
+  ],code:[
+```cpp
+
+```      
+  ]),
+
+  )
+)
