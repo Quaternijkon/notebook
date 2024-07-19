@@ -89,7 +89,7 @@
   // Configure page size and margins.
   set page(
     paper: paper-size,
-    margin: (bottom: 1.75cm, top: 2.25cm),
+    margin: (bottom: 2.54cm, top: 2.54cm, left: 1.91cm, right: 1.91cm),
   )
 
   // Cover page.

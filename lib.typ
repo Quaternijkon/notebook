@@ -98,13 +98,14 @@
   tips:[提示],
   solutions:(),
   code:[代码],
+  gain:none,
 )={
   
   block({
     // link(_link,image("assets/leetcode.svg"))
     question(
       title:title,
-
+      breakable: true,
     )[#description]
 
     // link(link:link,image("assets/leetcode.svg"))
@@ -119,12 +120,14 @@
     for _example in examples {
       example(
         title:"示例" + str(i),
+        breakable: true,
       )[#_example]
       i+=1;
     }
 
     tip(
       title:[提示],
+      breakable: true,
     )[#tips]
 
     let j=1;
@@ -132,6 +135,7 @@
     for solution in solutions {
       idea(
         title:"方法" + str(j),
+        breakable: true,
       )[#solution.text
 
       #solution.code
@@ -140,7 +144,12 @@
       j+=1;
     }
     
-
-
+    if(gain != none){
+      conclusion(
+        title:[笔记],
+        breakable: true,
+      )[#gain]
+    }
+    
   })
 }

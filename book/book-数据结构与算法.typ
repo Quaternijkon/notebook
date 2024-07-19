@@ -13,7 +13,7 @@
   author: "Quaternijkon",
   date: datetime(year: 2024, month: 07, day: 2),
   abstract: [
-    关于数据结构与算法的学习笔记。
+    数据结构与算法刷题本
   ],
   preface: [
     #align(center + horizon)[
@@ -42,11 +42,79 @@
 
 #include "../content/数据结构与算法/menu-数组.typ"
 
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-链表.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-栈.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-队列.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-字符串.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-堆.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-树.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-图.typ"
+
 = 算法
 
 #pagebreak()
 
 #include "../content/数据结构与算法/menu-二分查找.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-排序算法.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-滑动窗口与双指针.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-哈希表.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-递归与分治.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-广度优先搜索.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-深度优先搜索.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-贪心算法.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-动态规划.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-前缀和.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/menu-数学.typ"
 
 // = 数据结构
 
@@ -54,35 +122,11 @@
 
 // == 链表
 
-// === 反转链表
-
-// 题目描述：
-
-// 给定单链表的头节点 `head` ，请反转链表，并返回反转后的链表的头节点。
-
-// 示例1:
-
-// ```plaintext
-// 输入:head = [1,2,3,4,5]
-// 输出:[5,4,3,2,1]
-// ```
-
-// 示例2:
-
-
-// ```plaintext
-// 输入:head = [1,2]
-// 输出:[2,1]
-// ```
-
-
 // == 栈
 
 // == 队列
 
 // == 字符串
-
-// == 哈希表
 
 // == 堆
 
@@ -99,6 +143,8 @@
 // == 排序算法
 
 // == 滑动窗口与双指针
+
+// == 哈希表
 
 // == 递归与分治
 
