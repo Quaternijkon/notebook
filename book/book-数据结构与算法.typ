@@ -22,13 +22,14 @@
       
     ]
   ],
-  bibliography: bibliography("refs.bib"),
-  figure-index: (enabled: true),
-  table-index: (enabled: true),
-  listing-index: (enabled: true)
+  // bibliography: bibliography("refs.bib"),
+  // figure-index: (enabled: true),
+  // table-index: (enabled: true),
+  // listing-index: (enabled: true)
 )
 
 #show: codly-init.with()
+
 
 #codly(
   languages: (
@@ -98,7 +99,11 @@
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-递归与分治.typ"
+#include "../content/数据结构与算法/.menu/menu-递归.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/.menu/menu-分治.typ"
 
 #pagebreak()
 
@@ -115,6 +120,14 @@
 #pagebreak()
 
 #include "../content/数据结构与算法/.menu/menu-动态规划.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/.menu/menu-最短路径.typ"
+
+#pagebreak()
+
+#include "../content/数据结构与算法/.menu/menu-最小生成树.typ"
 
 #pagebreak()
 
