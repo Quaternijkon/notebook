@@ -92,7 +92,7 @@
     margin: (bottom: 1.27cm, top: 1.27cm, left: 1.27cm, right: 1.27cm),
   )
 
-  // Cover page.
+  // Cover page.封面
   page(align(left + horizon, block(width: 90%)[
       #let v-space = v(2em, weak: true)
       #text(3em)[*#title*]
@@ -167,7 +167,7 @@
       // Are we on a page that starts a chapter?
       let target = heading.where(level: 1)
       if query(target).any(it => it.location().page() == i) {
-        return align(aln)[#i]
+        return align(aln)[#link((page: 3, x: 0cm, y: 0cm))[#i]]
       }
 
       // Find the chapter of the section we are currently in.
@@ -178,9 +178,9 @@
         let chapter = upper(text(size: 0.68em, current.body))
         if current.numbering != none {
             if is-odd {
-              align(aln)[#chapter #h(gap) #i]
+              align(aln)[#link((page: 3, x: 0cm, y: 0cm))[#chapter #h(gap) #i]]
             } else {
-              align(aln)[#i #h(gap) #chapter]
+              align(aln)[#link((page: 3, x: 0cm, y: 0cm))[#i #h(gap) #chapter]]
             }
         }
       }
