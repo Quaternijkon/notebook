@@ -80,11 +80,11 @@
 
   // Set the body font.
   // Default is Linux Libertine at 11pt
-  set text(font: ("Libertinus Serif", "Linux Libertine"), size: 10pt)
+  set text(font: ("Libertinus Serif", "Linux Libertine"), size: 12pt)
 
   // Set raw text font.
   // Default is Fira Mono at 8.8pt
-  show raw: set text(font: ("Jetbrains Mono","PingFang SC","Iosevka", "Fira Mono"), size: 8pt)
+  show raw: set text(font: ("Jetbrains Mono","PingFang SC","Iosevka", "Fira Mono"), size: 9pt)
 
   // Configure page size and margins.
   set page(
