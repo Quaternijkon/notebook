@@ -140,3 +140,17 @@
     
   })
 }
+
+#let xquotation(first:[],second:[])=if first != [
+
+]{ quotation(
+    title:[书内链接],
+  )[
+    #columns(2)[
+    #set par(justify: true)
+    #first
+    #colbreak()
+    #second
+  ]
+  ]
+}

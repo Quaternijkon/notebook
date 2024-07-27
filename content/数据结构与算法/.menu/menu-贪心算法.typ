@@ -1,6 +1,16 @@
 == 贪心算法<贪心算法>
 
-#link(<买卖股票的最佳时机II>)[买卖股票的最佳时机II]
+#import "../../../lib.typ":* 
+
+#xquotation(
+  first: [
+@买卖股票的最佳时机II ---------买卖股票的最佳时机II
+  ], second: [
+    
+  ]
+)
+
+
 
 #pagebreak()
 
