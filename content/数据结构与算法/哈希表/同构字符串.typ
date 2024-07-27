@@ -4,7 +4,7 @@
   title: [同构字符串],
   reflink: "https://leetcode.cn/problems/isomorphic-strings/description/",
   level: 1,
-)
+)<同构字符串>
 
 #note(
   title: [

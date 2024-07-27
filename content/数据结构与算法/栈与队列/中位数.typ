@@ -4,7 +4,7 @@
   title: [中位数],
   reflink: "https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/description/",
   level: 3,
-)
+)<中位数>
 
 #note(
   title: [

@@ -4,7 +4,7 @@
   title: [数组中的第K个最大元素],
   reflink: "https://leetcode.cn/problems/kth-largest-element-in-an-array/description/",
   level: 2,
-)
+)<数组中的第K个最大元素>
 
 #note(
   title: [

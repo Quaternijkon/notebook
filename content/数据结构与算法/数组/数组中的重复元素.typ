@@ -6,7 +6,7 @@
   title: [数组中的重复元素],
   reflink: "https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/description/",
   level: 1,
-)
+)<数组中的重复元素>
 
 #note(
   title: [寻找文件副本],

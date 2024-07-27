@@ -4,7 +4,7 @@
   title: [丑数],
   reflink: "https://leetcode.cn/problems/ugly-number-ii/description/",
   level: 2,
-)
+)<丑数>
 
 #note(
   title: [

@@ -4,7 +4,7 @@
   title: [找字符串拼接的最大值],
   reflink: "https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/description/",
   level: 2,
-)
+)<找字符串拼接的最大值>
 
 #note(
   title: [

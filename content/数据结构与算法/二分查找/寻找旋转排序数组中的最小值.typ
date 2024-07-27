@@ -4,7 +4,7 @@
   title: [寻找旋转排序数组中的最小值],
   reflink: "https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/",
   level: 2,
-)
+)<寻找旋转排序数组中的最小值>
 
 #note(
   title: [

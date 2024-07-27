@@ -4,7 +4,7 @@
   title: [子结构判断],
   reflink: "https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/description/",
   level: 2,
-)
+)<子结构判断>
 
 #note(
   title: [

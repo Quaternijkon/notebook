@@ -4,7 +4,7 @@
   title: [有序数组两数之和],
   reflink: "https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/description/",
   level: 2,
-)
+)<有序数组两数之和>
 
 #note(
   title: [

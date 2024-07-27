@@ -4,7 +4,7 @@
   title: [字母迷宫],
   reflink: "https://leetcode.cn/problems/ju-zhen-zhong-de-lu-jing-lcof/description/",
   level: 2,
-)
+)<字母迷宫>
 
 #note(
   title: [

@@ -88,8 +88,6 @@
   box(
     link(reflink,image("assets/link.svg", height: 1em))
   )
-
-  
 }
 
 #let note(
@@ -104,32 +102,21 @@
 )={
   
   block({
-    // link(_link,image("assets/leetcode.svg"))
     question(
       title:title,
-      // breakable: true,
     )[#description]
-
-    // link(link:link,image("assets/leetcode.svg"))
-    // link("https://github.com/Quaternijkon/Typst_USTC_CS.git",image("assets/leetcode.svg"))
-
-    // example(
-    //   title:"示例1",
-    // )[#eg]
-    // 
+    
     let i=1;
     
     for _example in examples {
       example(
         title:"示例" + str(i),
-        // breakable: true,
       )[#_example]
       i+=1;
     }
 
     tip(
       title:[提示],
-      // breakable: true,
     )[#tips]
 
     let j=1;
@@ -137,7 +124,6 @@
     for solution in solutions {
       idea(
         title:"方法" + str(j)+":    "+solution.name,
-        // breakable: true,
       )[#solution.text
 
       #solution.code
@@ -149,7 +135,6 @@
     if(gain != none){
       conclusion(
         title:[笔记],
-        // breakable: true,
       )[#gain]
     }
     

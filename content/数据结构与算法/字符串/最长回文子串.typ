@@ -4,7 +4,7 @@
   title: [最长回文子串],
   reflink: "https://leetcode.cn/problems/longest-palindromic-substring/description/",
   level: 2,
-)
+)<最长回文子串>
 
 #note(
   title: [

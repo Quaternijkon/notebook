@@ -4,7 +4,7 @@
   title: [逆序对],
   reflink: "https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/description/",
   level: 2,
-)
+)<逆序对>
 
 #note(
   title: [
