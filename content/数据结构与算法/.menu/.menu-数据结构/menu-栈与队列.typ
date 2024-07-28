@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../../栈与队列/中位数.typ"
+#include "../../.chapter-数据结构/栈与队列/中位数.typ"

@@ -1,4 +1,4 @@
-#import "../../../lib.typ":*
+#import "../../../../lib.typ":*
 
 // ===  数组中的重复元素 #Link("https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/description/")
 

@@ -1,4 +1,4 @@
-#import "../../../lib.typ":*
+#import "../../../../lib.typ":*
 
 === #Title(
   title: [删除有序数组中的重复项],

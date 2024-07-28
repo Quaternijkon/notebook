@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../../字符串/最长回文子串.typ"
+#include "../../.chapter-数据结构/字符串/最长回文子串.typ"

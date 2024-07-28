@@ -14,4 +14,4 @@
 
 #pagebreak()
 
-#include "../../贪心算法/找字符串拼接的最大值.typ"
+#include "../../.chapter-算法/贪心算法/找字符串拼接的最大值.typ"

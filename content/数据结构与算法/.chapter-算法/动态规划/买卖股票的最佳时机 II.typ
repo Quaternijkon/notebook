@@ -1,4 +1,4 @@
-#import "../../../lib.typ":*
+#import "../../../../lib.typ":*
 
 === #Title(
   title: [买卖股票的最佳时机 II],

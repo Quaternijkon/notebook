@@ -1,4 +1,4 @@
-#import "../../../lib.typ":*
+#import "../../../../lib.typ":*
 
 === #Title(
   title: [反转链表],

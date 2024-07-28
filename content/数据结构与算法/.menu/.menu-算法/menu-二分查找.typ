@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../../二分查找/寻找旋转排序数组中的最小值.typ"
+#include "../../.chapter-算法/二分查找/寻找旋转排序数组中的最小值.typ"

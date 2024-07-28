@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../../哈希表/同构字符串.typ"
+#include "../../.chapter-数据结构/哈希表/同构字符串.typ"

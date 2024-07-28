@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../../分治/逆序对.typ"
+#include "../../.chapter-算法/分治/逆序对.typ"
