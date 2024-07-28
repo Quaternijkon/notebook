@@ -1,6 +1,6 @@
 == 树<树>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [
@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../树/子结构判断.typ"
+#include "../../树/子结构判断.typ"

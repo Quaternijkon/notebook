@@ -1,6 +1,6 @@
 == 图<图>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [

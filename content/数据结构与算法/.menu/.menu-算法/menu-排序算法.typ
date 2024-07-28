@@ -1,6 +1,6 @@
 == 排序算法<排序算法>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [

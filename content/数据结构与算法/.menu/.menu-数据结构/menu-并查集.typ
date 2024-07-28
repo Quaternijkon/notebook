@@ -1,6 +1,6 @@
 == 并查集 <并查集>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [

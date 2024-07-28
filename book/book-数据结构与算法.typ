@@ -55,93 +55,93 @@
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-数组.typ"
+#include "../content/数据结构与算法/.menu/.menu-数据结构/menu-数组.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-链表.typ"
+#include "../content/数据结构与算法/.menu/.menu-数据结构/menu-链表.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-栈与队列.typ"
+#include "../content/数据结构与算法/.menu/.menu-数据结构/menu-栈与队列.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-字符串.typ"
+#include "../content/数据结构与算法/.menu/.menu-数据结构/menu-字符串.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-哈希表.typ"
+#include "../content/数据结构与算法/.menu/.menu-数据结构/menu-哈希表.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-堆.typ"
+#include "../content/数据结构与算法/.menu/.menu-数据结构/menu-堆.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-树.typ"
+#include "../content/数据结构与算法/.menu/.menu-数据结构/menu-树.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-图.typ"
+#include "../content/数据结构与算法/.menu/.menu-数据结构/menu-图.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-并查集.typ"
+#include "../content/数据结构与算法/.menu/.menu-数据结构/menu-并查集.typ"
 
 = 算法
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-二分查找.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-二分查找.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-排序算法.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-排序算法.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-滑动窗口与双指针.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-滑动窗口与双指针.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-递归.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-递归.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-分治.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-分治.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-广度优先搜索.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-广度优先搜索.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-深度优先搜索.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-深度优先搜索.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-贪心算法.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-贪心算法.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-动态规划.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-动态规划.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-最短路径.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-最短路径.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-最小生成树.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-最小生成树.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-前缀和.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-前缀和.typ"
 
 #pagebreak()
 
-#include "../content/数据结构与算法/.menu/menu-数学.typ"
+#include "../content/数据结构与算法/.menu/.menu-算法/menu-数学.typ"
 
 = 题集
 

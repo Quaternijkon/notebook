@@ -1,6 +1,6 @@
 == 广度优先搜索<广度优先搜索>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [
@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../广度优先搜索/岛屿数量.typ"
+#include "../../广度优先搜索/岛屿数量.typ"

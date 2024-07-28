@@ -1,6 +1,6 @@
 == 数学<数学>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [
