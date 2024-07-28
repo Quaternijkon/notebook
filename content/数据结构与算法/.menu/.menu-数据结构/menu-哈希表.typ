@@ -1,6 +1,6 @@
 == 哈希表<哈希表>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [
@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../哈希表/同构字符串.typ"
+#include "../../哈希表/同构字符串.typ"

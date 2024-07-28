@@ -1,6 +1,6 @@
 == 链表<链表>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [
@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../链表/反转链表.typ"
+#include "../../链表/反转链表.typ"

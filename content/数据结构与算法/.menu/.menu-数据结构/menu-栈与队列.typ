@@ -1,6 +1,6 @@
 == 栈与队列<栈与队列>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [
@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../栈与队列/中位数.typ"
+#include "../../栈与队列/中位数.typ"

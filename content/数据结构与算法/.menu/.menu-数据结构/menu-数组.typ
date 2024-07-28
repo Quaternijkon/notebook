@@ -1,6 +1,6 @@
 == 数组 <数组>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [
@@ -12,6 +12,6 @@
 
 #pagebreak()
 
-#include "../数组/数组中的重复元素.typ"
+#include "../../数组/数组中的重复元素.typ"
 
 // #pagebreak()

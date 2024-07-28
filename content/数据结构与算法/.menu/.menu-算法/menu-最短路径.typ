@@ -1,6 +1,6 @@
 == 最短路径<最短路径>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [

@@ -1,6 +1,6 @@
 == 二分查找<二分查找>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [
@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "..\二分查找\寻找旋转排序数组中的最小值.typ"
+#include "../../二分查找/寻找旋转排序数组中的最小值.typ"

@@ -1,6 +1,6 @@
 == 贪心算法<贪心算法>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [
@@ -14,4 +14,4 @@
 
 #pagebreak()
 
-#include "../贪心算法/找字符串拼接的最大值.typ"
+#include "../../贪心算法/找字符串拼接的最大值.typ"

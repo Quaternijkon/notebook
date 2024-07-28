@@ -1,6 +1,6 @@
 == 分治<分治>
 
-#import "../../../lib.typ":* 
+#import "../../../../lib.typ":* 
 
 #xquotation(
   first: [
@@ -12,4 +12,4 @@
 
 #pagebreak()
 
-#include "../分治/逆序对.typ"
+#include "../../分治/逆序对.typ"
