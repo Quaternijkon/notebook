@@ -13,3 +13,7 @@
 #pagebreak()
 
 #include "../../.chapter-算法/数学/回文数.typ"
+
+#pagebreak()
+
+#include "../../.chapter-算法/数学/只出现一次的数字.typ"
