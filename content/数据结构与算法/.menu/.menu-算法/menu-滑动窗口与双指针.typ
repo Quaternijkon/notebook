@@ -17,3 +17,7 @@
 #pagebreak()
 
 #include "../../.chapter-算法/滑动窗口与双指针/删除有序数组中的重复项.typ"
+
+#pagebreak()
+
+#include "../../.chapter-算法/滑动窗口与双指针/移动零.typ"

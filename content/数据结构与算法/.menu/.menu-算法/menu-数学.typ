@@ -17,3 +17,7 @@
 #pagebreak()
 
 #include "../../.chapter-算法/数学/只出现一次的数字.typ"
+
+#pagebreak()
+
+#include "../../.chapter-算法/数学/旋转图像.typ"

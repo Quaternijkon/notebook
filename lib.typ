@@ -121,6 +121,8 @@
 
     let j=1;
 
+    // pagebreak()
+
     for solution in solutions {
       idea(
         title:"方法" + str(j)+":    "+solution.name,
