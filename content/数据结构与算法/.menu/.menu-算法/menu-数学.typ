@@ -21,3 +21,7 @@
 #pagebreak()
 
 #include "../../.chapter-算法/数学/旋转图像.typ"
+
+#pagebreak()
+
+#include "../../.chapter-算法/数学/整数反转.typ"

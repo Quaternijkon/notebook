@@ -17,3 +17,7 @@
 #pagebreak()
 
 #include "../../.chapter-数据结构/字符串/轮转字符串.typ"
+
+#pagebreak()
+
+#include "../../.chapter-数据结构/字符串/字符串转换整数.typ"
