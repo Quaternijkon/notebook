@@ -21,3 +21,11 @@
 #pagebreak()
 
 #include "../../.chapter-数据结构/字符串/字符串转换整数.typ"
+
+#pagebreak()
+
+#include "../../.chapter-数据结构/字符串/字符串匹配.typ"
+
+#pagebreak()
+
+#include "../../.chapter-数据结构/字符串/外观数列.typ"
