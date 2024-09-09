@@ -17,3 +17,7 @@
 #pagebreak()
 
 #include "../../.chapter-数据结构/树/二叉树最大深度.typ"
+
+#pagebreak()
+
+#include "../../.chapter-数据结构/树/验证二叉搜索树.typ"
