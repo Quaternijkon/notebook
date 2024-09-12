@@ -1,6 +1,6 @@
 // #import "@preview/ilm:1.1.2": *
-#import "../theme.typ": *
-#import "../lib.typ": *
+#import "../../theme.typ": *
+#import "../../lib.typ": *
 
 #set text(
   lang: "zh",
@@ -9,11 +9,11 @@
 )
 
 #show: ilm.with(
-  title: [并行程序设计],
+  title: [组合数学],
   author: "Quaternijkon",
   date: datetime(year: 2024, month: 07, day: 2),
   abstract: [
-    并行程序设计课程笔记
+    组合数学课程笔记
   ],
   preface: [
     #align(center + horizon)[
@@ -49,4 +49,4 @@
 
 #show :show-cn-fakebold
 
-= 并行程序设计
+= 组合数学
