@@ -11,7 +11,7 @@
 #show: ilm.with(
   title: [计算机应用数学],
   author: "Quaternijkon",
-  date: datetime(year: 2024, month: 07, day: 2),
+  date: datetime(year: 2024, month: 09, day: 10),
   abstract: [
     计算机应用数学课程笔记
   ],

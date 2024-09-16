@@ -11,7 +11,7 @@
 #show: ilm.with(
   title: [并行程序设计],
   author: "Quaternijkon",
-  date: datetime(year: 2024, month: 07, day: 2),
+  date: datetime(year: 2024, month: 09, day: 9),
   abstract: [
     并行程序设计课程笔记
   ],

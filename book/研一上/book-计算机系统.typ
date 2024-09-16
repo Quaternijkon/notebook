@@ -11,7 +11,7 @@
 #show: ilm.with(
   title: [计算机系统],
   author: "Quaternijkon",
-  date: datetime(year: 2024, month: 07, day: 2),
+  date: datetime(year: 2024, month: 09, day: 13),
   abstract: [
     计算机系统课程笔记
   ],

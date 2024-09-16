@@ -11,7 +11,7 @@
 #show: ilm.with(
   title: [算法设计与分析],
   author: "Quaternijkon",
-  date: datetime(year: 2024, month: 07, day: 2),
+  date: datetime(year: 2024, month: 09, day: 10),
   abstract: [
     算法设计与分析课程笔记
   ],

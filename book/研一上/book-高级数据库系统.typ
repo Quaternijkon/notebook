@@ -11,7 +11,7 @@
 #show: ilm.with(
   title: [高级数据库系统],
   author: "Quaternijkon",
-  date: datetime(year: 2024, month: 07, day: 2),
+  date: datetime(year: 2024, month: 09, day: 10),
   abstract: [
     高级数据库系统课程笔记
   ],
