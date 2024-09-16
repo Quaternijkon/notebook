@@ -8,6 +8,8 @@
   // font: "JetBrains Mono",
 )
 
+#show link: underline
+
 #show: ilm.with(
   title: [组合数学],
   author: "Quaternijkon",
@@ -16,13 +18,15 @@
     组合数学课程笔记
   ],
   preface: [
-    #align(center + horizon)[
-      
+    #align(horizon)[
+    参考书目：
+    - #link("https://zh.singlelogin.re/book/5667636/ea2744/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6.html")[组合数学 -- Richard A. Brualdi]
+    - #link("https://zh.singlelogin.re/book/17313725/bd3df0/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6%E5%BC%95%E8%AE%BA-%E7%AC%AC2%E7%89%88.html")[组合数学引论 第2版 -- 许胤龙 孙淑玲]
 
       
     ]
   ],
-  // bibliography: bibliography("refs.bib"),
+  // bibliography: bibliography("../../ref.bib"),
   // figure-index: (enabled: true),
   // table-index: (enabled: true),
   // listing-index: (enabled: true)
