@@ -49,4 +49,6 @@
 
 #show :show-cn-fakebold
 
-= 组合数学
+#include "../../content/组合数学/ch1-鸽巢原理.typ"
+
+#include "../../content/组合数学/课后习题.typ"

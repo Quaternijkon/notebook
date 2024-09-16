@@ -1,6 +1,7 @@
 #import "@preview/codly:1.0.0": *
 #import "@preview/gentle-clues:0.9.0": *
 #import "@preview/cuti:0.2.1": show-cn-fakebold
+#import "@preview/showybox:2.0.1": showybox
 
 
 #let (

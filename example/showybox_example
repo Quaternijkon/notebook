@@ -1,0 +1,20 @@
+#showybox(
+  title: [
+
+],
+  frame: (
+    border-color: blue,
+    title-color: blue.lighten(30%),
+    body-color: blue.lighten(95%),
+    footer-color: blue.lighten(80%)
+  ),
+  sep: (
+    thickness: 0.5pt,
+    dash: "loosely-dashed"
+  ),
+  footer: [
+
+]
+)[
+
+]
