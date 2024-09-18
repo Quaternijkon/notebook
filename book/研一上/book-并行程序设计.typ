@@ -49,4 +49,6 @@
 
 #show :show-cn-fakebold
 
-= 并行程序设计
+= 并行程序设计导论
+
+#include "../../content/并行程序设计/上篇：并行程序设计导论/单元Ⅰ：并行程序设计基础.typ"
