@@ -49,4 +49,4 @@
 
 #show :show-cn-fakebold
 
-= 计算机应用数学
+#include "../../content/计算机应用数学/随机游走与马尔可夫链.typ"
