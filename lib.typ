@@ -3,6 +3,10 @@
 #import "@preview/cuti:0.2.1": show-cn-fakebold
 #import "@preview/showybox:2.0.1": showybox
 #import "@preview/cetz:0.2.2"
+#import "@preview/mitex:0.2.4":*
+#import "@preview/lovelace:0.3.0": *
+#import "@preview/finite:0.3.2":automaton
+#import "@preview/commute:0.2.0":*
 
 
 #let (
@@ -160,7 +164,7 @@
 }
 
 yes! it works!
-#let llltable(titles:(),caption:[],align:left,kind:"table",supplement:[表],..items)={
+#let llltable(titles:[],columns:1,caption:[],align:left,kind:"table",supplement:[表],..items)={
   let items=items.pos()//在函数定义中，..bodies 表示接收任意数量的参数，这些参数被收集到一个特殊的 参数对象（arguments object） 中.bodies.pos() 方法从参数对象中提取所有的 位置参数，并返回一个 序列（sequence），即一个有序的参数列表。
   figure(
     kind:kind,
@@ -168,17 +172,28 @@ yes! it works!
     caption: caption,
     table(
     stroke: none, 
-    columns: titles.len(),
+    columns: columns,
     align: align,
     table.hline(),
-    table.header(
-      for title in titles {
-        [#strong(title)]
-      }
-    ),
+    // table.header(
+    //   for title in titles {
+    //     strong(title)
+    //   }
+    // ),
+    titles,
     table.hline(),
     ..items,
     table.hline(),
     ),
   )
 }
+
+#let algo(caption:[],content:[])={
+  figure(
+    kind: "algorithm",
+    caption: caption,
+    supplement: [算法],
+    content
+  )
+}
+
