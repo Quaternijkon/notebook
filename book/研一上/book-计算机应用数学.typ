@@ -52,3 +52,5 @@
 #set math.mat(delim: "[")
 
 #include "../../content/计算机应用数学/随机游走与马尔可夫链.typ"
+
+#include "../../content/计算机应用数学/距离和散度.typ"
