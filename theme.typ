@@ -12,6 +12,7 @@
 #let stroke-color = luma(200)
 #let fill-color = luma(250)
 
+
 // This function gets your whole document as its `body` and formats it as a simple
 // non-fiction paper.
 #let ilm(
@@ -266,3 +267,4 @@
     body
   )
 }
+
