@@ -1,3 +1,7 @@
+2026-01-19
+
+该仓库不再维护，请移步另一个网页在线分享的仓库：https://github.com/Quaternijkon/ustc_course
+
 *PDF未必是最新版本的（但通常不会落后太多，小更新时不会同步更新），请自行在book文件夹内渲染`.typ`文件*
 
 PDF列表：
